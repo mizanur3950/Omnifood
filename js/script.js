@@ -1,0 +1,20 @@
+//Get Current Year for footer section
+$('#year').text(new Date().getFullYear());
+
+//Initialize Scrollspy
+$('body').scrollspy({ target: '#main-nav' });
+
+//Smooth Scrolling
+$('#main-nav a').on('click',function(e){
+  if(this.hash !== ''){
+    e.preventDefault();
+
+    const hash= this.hash;
+
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    },700, function() {
+      window.location.hash= hash;
+    });
+  }
+});

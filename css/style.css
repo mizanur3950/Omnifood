@@ -1,0 +1,172 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #222;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,0.7);
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    color: #fff !important;
+}
+
+#main-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+/*
+#main-header #main-nav ul li a{
+    text-decoration: none;
+    color: #555;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+#main-header ul li a:hover {
+    color: #e67e22;
+}
+
+*/
+
+#main-header .nav-link.active {
+  color: #e67e22 !important;
+}
+
+
+#main-header h1{
+    font-weight: 300;
+}
+
+.hero-text-box {
+    padding-top: 300px;
+}
+
+.btn-full {
+    color: #fff;
+    background-color: #e67e22;
+    margin-right: 20px;
+}
+
+.btn-ghost {
+    color: #fff;
+    border: 1px solid #e67e22;
+}
+
+.btn-ghost:hover {
+    background-color: #e67e22;
+    color: #fff;
+}
+
+
+h2 {
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+h2::after {
+    content: " ";
+    display: block;
+    background-color: #e67e22;
+    height: 2px;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+#about p {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#about .card {
+    border: none;
+    text-align: center;
+}
+
+#about .fa {
+    color: #e65e22;
+}
+
+#about h3 {
+    font-size: 1.5rem;
+}
+
+#about .card p {
+    font-size: 1rem;
+    color: #333;
+}
+
+#photos {
+    background-color: #000;
+}
+
+#photos img {
+    opacity: 0.7;
+    transition: ease 0.4s all;
+}
+
+#photos img:hover {
+    opacity: 1;
+}
+
+
+#cities .card h4,
+#pricing .card h5 {
+  color: #e65e22;
+}
+#cities .card,
+#cities .card ul li,
+#pricing .card,
+#pricing .card ul li  {
+  border:none;
+}
+
+#cities .card-body {
+  padding-left: 1% !important;
+  padding-right: 0 !important;
+}
+
+#testimonial {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#testimonial .blockquote {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#testimonial cite,
+#pricing .fa {
+  color: #e67e22;
+}
+
+#pricing .btn-ghost,
+#contact .btn-ghost {
+  color: #222;
+}
+
+#pricing {
+  background-color: rgba(#ebebeb, 0.8);
+}
+
+#contact form {
+  width: 80%;
+  margin: 0 auto;
+}
